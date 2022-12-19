@@ -1,7 +1,6 @@
 require("dotenv").config();
 const express = require("express");
 const bodyParser = require("body-parser");
-//const request = require("request");
 const https = require("https");
 //const mailchimp = require("@mailchimp/mailchimp_marketing");
 
@@ -70,6 +69,3 @@ app.post("/failure", function (req, res) {
 app.listen(process.env.PORT || 3000, function () {
   console.log("The server is running on port 3000.");
 });
-
-// API Key: e3d53664272bcdc431240e512d4f8205-us20
-//List ID: 7da9901df9
