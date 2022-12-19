@@ -4,6 +4,7 @@
   "description": "Inscription a pottal",
   "main": "app.js",
   "scripts": {
+    "start": "node app.js",
     "build": "babel src -d lib",
     "test": "jest"
   },
